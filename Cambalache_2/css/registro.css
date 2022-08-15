@@ -1,0 +1,22 @@
+#titulo{
+    background-color: #ddd7d7;
+    padding: 100px;
+}
+
+#titulo #userLine{
+    width: 20%;
+    margin-left: 40%;
+
+}
+
+
+
+footer a{
+	margin: 20px;
+	text-decoration: none;
+	color: brown;
+}
+
+footer h6{
+	color: brown;
+}

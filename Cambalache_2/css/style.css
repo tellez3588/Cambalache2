@@ -1,32 +1,43 @@
-
-main {
+main{
+	background-color: #ddd7d7;
+}
+nav {
     background-color: #ddd7d7;
-    width: auto;
-
 }
 
-main .buscar {
+
+.buscar {
     padding: 100px;
+
 }
 
-nav a {
-    font-size: 12px;
-    color: #c95555;
-    text-decoration: none;
-    padding: 20px 25px;
+.section-padding {
+	padding: 100px 0;
 }
 
-.cat {
-    width: 380px;
-    height: 300px;
+
+
+footer a{
+	margin: 20px;
+	text-decoration: none;
+	color: brown;
 }
 
-.rec {
-    width: 450px;
-    height: 200px;
+footer h6{
+	color: brown;
 }
 
-.categoria {
-    padding: 100px;
-    
+
+/* --- --- CAROUSEL --- --- */
+
+.carousel{
+	padding: 50px;
 }
+
+
+.carousel__elemento {
+	text-align: center;
+}
+
+
+
