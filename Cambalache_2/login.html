@@ -52,14 +52,14 @@
               <input type="email" class="form-control" id="emailUser" placeholder="Correo Electronico">
             </div>
             <div class="mb-3">
-              <input type="password" class="form-control" id="passworeUser" placeholder="Contraseña">
+              <input type="password" class="form-control" id="passwordUser" placeholder="Contraseña">
             </div>
         </form>
         <hr id="dataLine">
-        <p>Si no tiene cuenta de usuario <a href="">registrese aqui</a></p>
+        <p>Si no tiene cuenta de usuario <a href="registro.html">registrese aqui</a></p>
         <div class="d-grid gap-3 d-md-flex justify-content-md-center">
-          <button type="button" class="btn btn-primary">Ingresar</button>
-          <button type="button" class="btn btn-secondary">Cancelar</button>
+          <button type="button" class="btn btn-primary" id="ingresoBtn" onclick="cargarLocalStorage();">Ingresar</button>
+          <button type="button" class="btn btn-secondary" id="cancelarBtn" onclick="volverInicio();">Cancelar</button>
         </div>        
     </section>
 
